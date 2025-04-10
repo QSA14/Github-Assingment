@@ -82,4 +82,4 @@ keyword_entry.pack(pady=5)
 Button(root, text="Search News by Keyword", command=search_by_keyword).pack(pady=5)
 
 root.mainloop()
-
+#fix the size of button
