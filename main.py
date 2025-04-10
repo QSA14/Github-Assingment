@@ -5,6 +5,8 @@ from tkinter import Tk, Label, Entry, Button, Text, Toplevel, messagebox, END
 API_KEY = 'pVWzxCuSJ8xc6lxaomnQZWDAEQsaR4BfSQVSYK2P'
 BASE_URL = 'https://api.thenewsapi.com/v1/news/top'
 
+//in the future we will upgrade it
+
 def fetch_news(language='en', country=None, search=None):
 
     headers = {'Authorization': f'Bearer {API_KEY}'}
